@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2024a http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229 http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="1f33d04a-6bee-45f2-9cf4-3ea1c1840575">
+    <JITEngines>sRY74DcFqa2UEDrnu01YIpC</JITEngines>
+    <JITEngines>sYnjwIquWNOm1xPRtHIhGcD</JITEngines>
+    <calibrationData type="ModelRefInfoRepo.CalibrationData" uuid="682df532-b4e2-4d4a-92ce-fde1616c5665">
+      <InternalData>[{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;}]</InternalData>
+      <ModelName>basic_IO_qbot_platform</ModelName>
+      <Parameters>[{&quot;DualScaledParamProperty&quot;:&quot;&quot;,&quot;Name&quot;:&quot;mainStepSize&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;DualScaledParamProperty&quot;:&quot;&quot;,&quot;Name&quot;:&quot;lidarStepSize&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;DualScaledParamProperty&quot;:&quot;&quot;,&quot;Name&quot;:&quot;downCamStepSize&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;DualScaledParamProperty&quot;:&quot;&quot;,&quot;Name&quot;:&quot;realSenseStepSize&quot;,&quot;Profile&quot;:&quot;&quot;},{&quot;DualScaledParamProperty&quot;:&quot;&quot;,&quot;Name&quot;:&quot;mode&quot;,&quot;Profile&quot;:&quot;&quot;}]</Parameters>
+    </calibrationData>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="266a17a4-1adf-4437-bb4d-255cba38acad">
+      <modelName>basic_IO_qbot_platform</modelName>
+      <modelPath>basic_IO_qbot_platform</modelPath>
+    </childModelRefInfo>
+    <compiledTFinal>inf</compiledTFinal>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="eb82c47c-da4c-429c-88f3-4a19f7c13473">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="7dde4670-cb9f-4a42-b63c-660594cce075">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>basic_IO_qbot_platform</modelName>
+    </dataSourceInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fastestNoncontSigFeedingDerivPorts>-1.0</fastestNoncontSigFeedingDerivPorts>
+    <fundamentalSampleTimePeriod>.016666666666666666</fundamentalSampleTimePeriod>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <needsAbsoluteTime>true</needsAbsoluteTime>
+    <nonTunableVariables>downCamStepSize</nonTunableVariables>
+    <nonTunableVariables>lidarStepSize</nonTunableVariables>
+    <nonTunableVariables>mainStepSize</nonTunableVariables>
+    <nonTunableVariables>realSenseStepSize</nonTunableVariables>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.016666666666666666</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D2</nonFcnCallPartitionName>
+      <period>.03333333333333333</period>
+      <priority>39</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D3</nonFcnCallPartitionName>
+      <period>.06666666666666667</period>
+      <priority>38</priority>
+      <rateIdx>2</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D4</nonFcnCallPartitionName>
+      <period>.2</period>
+      <priority>37</priority>
+      <rateIdx>3</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>323</solverStatusFlags>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="1f86c56d-2deb-4895-8292-4f77ebc4a918">
+      <defaultValue>CHANNEL_0</defaultValue>
+      <enumName>t_channel</enumName>
+      <labels>CHANNEL_0</labels>
+      <labels>CHANNEL_1</labels>
+      <labels>CHANNEL_2</labels>
+      <labels>CHANNEL_3</labels>
+      <labels>CHANNEL_4</labels>
+      <labels>CHANNEL_5</labels>
+      <labels>CHANNEL_6</labels>
+      <labels>CHANNEL_7</labels>
+      <labels>CHANNEL_8</labels>
+      <labels>CHANNEL_9</labels>
+      <labels>CHANNEL_10</labels>
+      <labels>CHANNEL_11</labels>
+      <labels>CHANNEL_12</labels>
+      <labels>CHANNEL_13</labels>
+      <labels>CHANNEL_14</labels>
+      <labels>CHANNEL_15</labels>
+      <labels>CHANNEL_16</labels>
+      <labels>CHANNEL_17</labels>
+      <labels>CHANNEL_18</labels>
+      <labels>CHANNEL_19</labels>
+      <labels>CHANNEL_20</labels>
+      <labels>CHANNEL_21</labels>
+      <labels>CHANNEL_22</labels>
+      <labels>CHANNEL_23</labels>
+      <labels>CHANNEL_24</labels>
+      <labels>CHANNEL_25</labels>
+      <labels>CHANNEL_26</labels>
+      <labels>CHANNEL_27</labels>
+      <labels>CHANNEL_28</labels>
+      <labels>CHANNEL_29</labels>
+      <labels>CHANNEL_30</labels>
+      <labels>CHANNEL_31</labels>
+      <labels>CHANNEL_32</labels>
+      <labels>CHANNEL_33</labels>
+      <labels>CHANNEL_34</labels>
+      <labels>CHANNEL_35</labels>
+      <labels>CHANNEL_36</labels>
+      <labels>CHANNEL_37</labels>
+      <labels>CHANNEL_38</labels>
+      <labels>CHANNEL_39</labels>
+      <labels>CHANNEL_40</labels>
+      <labels>CHANNEL_41</labels>
+      <labels>CHANNEL_42</labels>
+      <labels>CHANNEL_43</labels>
+      <labels>CHANNEL_44</labels>
+      <labels>CHANNEL_45</labels>
+      <labels>CHANNEL_46</labels>
+      <labels>CHANNEL_47</labels>
+      <labels>CHANNEL_48</labels>
+      <labels>CHANNEL_49</labels>
+      <labels>CHANNEL_50</labels>
+      <labels>CHANNEL_51</labels>
+      <labels>CHANNEL_52</labels>
+      <labels>CHANNEL_53</labels>
+      <labels>CHANNEL_54</labels>
+      <labels>CHANNEL_55</labels>
+      <labels>CHANNEL_56</labels>
+      <labels>CHANNEL_57</labels>
+      <labels>CHANNEL_58</labels>
+      <labels>CHANNEL_59</labels>
+      <labels>CHANNEL_60</labels>
+      <labels>CHANNEL_61</labels>
+      <labels>CHANNEL_62</labels>
+      <labels>CHANNEL_63</labels>
+      <labels>CHANNEL_64</labels>
+      <labels>CHANNEL_65</labels>
+      <labels>CHANNEL_66</labels>
+      <labels>CHANNEL_67</labels>
+      <labels>CHANNEL_68</labels>
+      <labels>CHANNEL_69</labels>
+      <labels>CHANNEL_70</labels>
+      <labels>CHANNEL_71</labels>
+      <labels>CHANNEL_72</labels>
+      <labels>CHANNEL_73</labels>
+      <labels>CHANNEL_74</labels>
+      <labels>CHANNEL_75</labels>
+      <labels>CHANNEL_76</labels>
+      <labels>CHANNEL_77</labels>
+      <labels>CHANNEL_78</labels>
+      <labels>CHANNEL_79</labels>
+      <labels>CHANNEL_80</labels>
+      <labels>CHANNEL_81</labels>
+      <labels>CHANNEL_82</labels>
+      <labels>CHANNEL_83</labels>
+      <labels>CHANNEL_84</labels>
+      <labels>CHANNEL_85</labels>
+      <labels>CHANNEL_86</labels>
+      <labels>CHANNEL_87</labels>
+      <labels>CHANNEL_88</labels>
+      <labels>CHANNEL_89</labels>
+      <labels>CHANNEL_90</labels>
+      <labels>CHANNEL_91</labels>
+      <labels>CHANNEL_92</labels>
+      <labels>CHANNEL_93</labels>
+      <labels>CHANNEL_94</labels>
+      <labels>CHANNEL_95</labels>
+      <labels>CHANNEL_96</labels>
+      <labels>CHANNEL_97</labels>
+      <labels>CHANNEL_98</labels>
+      <labels>CHANNEL_99</labels>
+      <labels>CHANNEL_100</labels>
+      <labels>CHANNEL_101</labels>
+      <labels>CHANNEL_102</labels>
+      <labels>CHANNEL_103</labels>
+      <labels>CHANNEL_104</labels>
+      <labels>CHANNEL_105</labels>
+      <labels>CHANNEL_106</labels>
+      <labels>CHANNEL_107</labels>
+      <labels>CHANNEL_108</labels>
+      <labels>CHANNEL_109</labels>
+      <labels>CHANNEL_110</labels>
+      <labels>CHANNEL_111</labels>
+      <labels>CHANNEL_112</labels>
+      <labels>CHANNEL_113</labels>
+      <labels>CHANNEL_114</labels>
+      <labels>CHANNEL_115</labels>
+      <labels>CHANNEL_116</labels>
+      <labels>CHANNEL_117</labels>
+      <labels>CHANNEL_118</labels>
+      <labels>CHANNEL_119</labels>
+      <labels>CHANNEL_120</labels>
+      <labels>CHANNEL_121</labels>
+      <labels>CHANNEL_122</labels>
+      <labels>CHANNEL_123</labels>
+      <labels>CHANNEL_124</labels>
+      <labels>CHANNEL_125</labels>
+      <labels>CHANNEL_126</labels>
+      <labels>CHANNEL_127</labels>
+      <labels>CHANNEL_128</labels>
+      <labels>CHANNEL_129</labels>
+      <labels>CHANNEL_130</labels>
+      <labels>CHANNEL_131</labels>
+      <labels>CHANNEL_132</labels>
+      <labels>CHANNEL_133</labels>
+      <labels>CHANNEL_134</labels>
+      <labels>CHANNEL_135</labels>
+      <labels>CHANNEL_136</labels>
+      <labels>CHANNEL_137</labels>
+      <labels>CHANNEL_138</labels>
+      <labels>CHANNEL_139</labels>
+      <labels>CHANNEL_140</labels>
+      <labels>CHANNEL_141</labels>
+      <labels>CHANNEL_142</labels>
+      <labels>CHANNEL_143</labels>
+      <labels>CHANNEL_144</labels>
+      <labels>CHANNEL_145</labels>
+      <labels>CHANNEL_146</labels>
+      <labels>CHANNEL_147</labels>
+      <labels>CHANNEL_148</labels>
+      <labels>CHANNEL_149</labels>
+      <labels>CHANNEL_150</labels>
+      <labels>CHANNEL_151</labels>
+      <labels>CHANNEL_152</labels>
+      <labels>CHANNEL_153</labels>
+      <labels>CHANNEL_154</labels>
+      <labels>CHANNEL_155</labels>
+      <labels>CHANNEL_156</labels>
+      <labels>CHANNEL_157</labels>
+      <labels>CHANNEL_158</labels>
+      <labels>CHANNEL_159</labels>
+      <labels>CHANNEL_160</labels>
+      <labels>CHANNEL_161</labels>
+      <labels>CHANNEL_162</labels>
+      <labels>CHANNEL_163</labels>
+      <labels>CHANNEL_164</labels>
+      <labels>CHANNEL_165</labels>
+      <labels>CHANNEL_166</labels>
+      <labels>CHANNEL_167</labels>
+      <labels>CHANNEL_168</labels>
+      <labels>CHANNEL_169</labels>
+      <labels>CHANNEL_170</labels>
+      <labels>CHANNEL_171</labels>
+      <labels>CHANNEL_172</labels>
+      <labels>CHANNEL_173</labels>
+      <labels>CHANNEL_174</labels>
+      <labels>CHANNEL_175</labels>
+      <labels>CHANNEL_176</labels>
+      <labels>CHANNEL_177</labels>
+      <labels>CHANNEL_178</labels>
+      <labels>CHANNEL_179</labels>
+      <labels>CHANNEL_180</labels>
+      <labels>CHANNEL_181</labels>
+      <labels>CHANNEL_182</labels>
+      <labels>CHANNEL_183</labels>
+      <labels>CHANNEL_184</labels>
+      <labels>CHANNEL_185</labels>
+      <labels>CHANNEL_186</labels>
+      <labels>CHANNEL_187</labels>
+      <labels>CHANNEL_188</labels>
+      <labels>CHANNEL_189</labels>
+      <labels>CHANNEL_190</labels>
+      <labels>CHANNEL_191</labels>
+      <labels>CHANNEL_192</labels>
+      <labels>CHANNEL_193</labels>
+      <labels>CHANNEL_194</labels>
+      <labels>CHANNEL_195</labels>
+      <labels>CHANNEL_196</labels>
+      <labels>CHANNEL_197</labels>
+      <labels>CHANNEL_198</labels>
+      <labels>CHANNEL_199</labels>
+      <labels>CHANNEL_200</labels>
+      <labels>CHANNEL_201</labels>
+      <labels>CHANNEL_202</labels>
+      <labels>CHANNEL_203</labels>
+      <labels>CHANNEL_204</labels>
+      <labels>CHANNEL_205</labels>
+      <labels>CHANNEL_206</labels>
+      <labels>CHANNEL_207</labels>
+      <labels>CHANNEL_208</labels>
+      <labels>CHANNEL_209</labels>
+      <labels>CHANNEL_210</labels>
+      <labels>CHANNEL_211</labels>
+      <labels>CHANNEL_212</labels>
+      <labels>CHANNEL_213</labels>
+      <labels>CHANNEL_214</labels>
+      <labels>CHANNEL_215</labels>
+      <labels>CHANNEL_216</labels>
+      <labels>CHANNEL_217</labels>
+      <labels>CHANNEL_218</labels>
+      <labels>CHANNEL_219</labels>
+      <labels>CHANNEL_220</labels>
+      <labels>CHANNEL_221</labels>
+      <labels>CHANNEL_222</labels>
+      <labels>CHANNEL_223</labels>
+      <labels>CHANNEL_224</labels>
+      <labels>CHANNEL_225</labels>
+      <labels>CHANNEL_226</labels>
+      <labels>CHANNEL_227</labels>
+      <labels>CHANNEL_228</labels>
+      <labels>CHANNEL_229</labels>
+      <labels>CHANNEL_230</labels>
+      <labels>CHANNEL_231</labels>
+      <labels>CHANNEL_232</labels>
+      <labels>CHANNEL_233</labels>
+      <labels>CHANNEL_234</labels>
+      <labels>CHANNEL_235</labels>
+      <labels>CHANNEL_236</labels>
+      <labels>CHANNEL_237</labels>
+      <labels>CHANNEL_238</labels>
+      <labels>CHANNEL_239</labels>
+      <labels>CHANNEL_240</labels>
+      <labels>CHANNEL_241</labels>
+      <labels>CHANNEL_242</labels>
+      <labels>CHANNEL_243</labels>
+      <labels>CHANNEL_244</labels>
+      <labels>CHANNEL_245</labels>
+      <labels>CHANNEL_246</labels>
+      <labels>CHANNEL_247</labels>
+      <labels>CHANNEL_248</labels>
+      <labels>CHANNEL_249</labels>
+      <labels>CHANNEL_250</labels>
+      <labels>CHANNEL_251</labels>
+      <labels>CHANNEL_252</labels>
+      <labels>CHANNEL_253</labels>
+      <labels>CHANNEL_254</labels>
+      <labels>CHANNEL_255</labels>
+      <storageType>int32</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+      <values>3</values>
+      <values>4</values>
+      <values>5</values>
+      <values>6</values>
+      <values>7</values>
+      <values>8</values>
+      <values>9</values>
+      <values>10</values>
+      <values>11</values>
+      <values>12</values>
+      <values>13</values>
+      <values>14</values>
+      <values>15</values>
+      <values>16</values>
+      <values>17</values>
+      <values>18</values>
+      <values>19</values>
+      <values>20</values>
+      <values>21</values>
+      <values>22</values>
+      <values>23</values>
+      <values>24</values>
+      <values>25</values>
+      <values>26</values>
+      <values>27</values>
+      <values>28</values>
+      <values>29</values>
+      <values>30</values>
+      <values>31</values>
+      <values>32</values>
+      <values>33</values>
+      <values>34</values>
+      <values>35</values>
+      <values>36</values>
+      <values>37</values>
+      <values>38</values>
+      <values>39</values>
+      <values>40</values>
+      <values>41</values>
+      <values>42</values>
+      <values>43</values>
+      <values>44</values>
+      <values>45</values>
+      <values>46</values>
+      <values>47</values>
+      <values>48</values>
+      <values>49</values>
+      <values>50</values>
+      <values>51</values>
+      <values>52</values>
+      <values>53</values>
+      <values>54</values>
+      <values>55</values>
+      <values>56</values>
+      <values>57</values>
+      <values>58</values>
+      <values>59</values>
+      <values>60</values>
+      <values>61</values>
+      <values>62</values>
+      <values>63</values>
+      <values>64</values>
+      <values>65</values>
+      <values>66</values>
+      <values>67</values>
+      <values>68</values>
+      <values>69</values>
+      <values>70</values>
+      <values>71</values>
+      <values>72</values>
+      <values>73</values>
+      <values>74</values>
+      <values>75</values>
+      <values>76</values>
+      <values>77</values>
+      <values>78</values>
+      <values>79</values>
+      <values>80</values>
+      <values>81</values>
+      <values>82</values>
+      <values>83</values>
+      <values>84</values>
+      <values>85</values>
+      <values>86</values>
+      <values>87</values>
+      <values>88</values>
+      <values>89</values>
+      <values>90</values>
+      <values>91</values>
+      <values>92</values>
+      <values>93</values>
+      <values>94</values>
+      <values>95</values>
+      <values>96</values>
+      <values>97</values>
+      <values>98</values>
+      <values>99</values>
+      <values>100</values>
+      <values>101</values>
+      <values>102</values>
+      <values>103</values>
+      <values>104</values>
+      <values>105</values>
+      <values>106</values>
+      <values>107</values>
+      <values>108</values>
+      <values>109</values>
+      <values>110</values>
+      <values>111</values>
+      <values>112</values>
+      <values>113</values>
+      <values>114</values>
+      <values>115</values>
+      <values>116</values>
+      <values>117</values>
+      <values>118</values>
+      <values>119</values>
+      <values>120</values>
+      <values>121</values>
+      <values>122</values>
+      <values>123</values>
+      <values>124</values>
+      <values>125</values>
+      <values>126</values>
+      <values>127</values>
+      <values>128</values>
+      <values>129</values>
+      <values>130</values>
+      <values>131</values>
+      <values>132</values>
+      <values>133</values>
+      <values>134</values>
+      <values>135</values>
+      <values>136</values>
+      <values>137</values>
+      <values>138</values>
+      <values>139</values>
+      <values>140</values>
+      <values>141</values>
+      <values>142</values>
+      <values>143</values>
+      <values>144</values>
+      <values>145</values>
+      <values>146</values>
+      <values>147</values>
+      <values>148</values>
+      <values>149</values>
+      <values>150</values>
+      <values>151</values>
+      <values>152</values>
+      <values>153</values>
+      <values>154</values>
+      <values>155</values>
+      <values>156</values>
+      <values>157</values>
+      <values>158</values>
+      <values>159</values>
+      <values>160</values>
+      <values>161</values>
+      <values>162</values>
+      <values>163</values>
+      <values>164</values>
+      <values>165</values>
+      <values>166</values>
+      <values>167</values>
+      <values>168</values>
+      <values>169</values>
+      <values>170</values>
+      <values>171</values>
+      <values>172</values>
+      <values>173</values>
+      <values>174</values>
+      <values>175</values>
+      <values>176</values>
+      <values>177</values>
+      <values>178</values>
+      <values>179</values>
+      <values>180</values>
+      <values>181</values>
+      <values>182</values>
+      <values>183</values>
+      <values>184</values>
+      <values>185</values>
+      <values>186</values>
+      <values>187</values>
+      <values>188</values>
+      <values>189</values>
+      <values>190</values>
+      <values>191</values>
+      <values>192</values>
+      <values>193</values>
+      <values>194</values>
+      <values>195</values>
+      <values>196</values>
+      <values>197</values>
+      <values>198</values>
+      <values>199</values>
+      <values>200</values>
+      <values>201</values>
+      <values>202</values>
+      <values>203</values>
+      <values>204</values>
+      <values>205</values>
+      <values>206</values>
+      <values>207</values>
+      <values>208</values>
+      <values>209</values>
+      <values>210</values>
+      <values>211</values>
+      <values>212</values>
+      <values>213</values>
+      <values>214</values>
+      <values>215</values>
+      <values>216</values>
+      <values>217</values>
+      <values>218</values>
+      <values>219</values>
+      <values>220</values>
+      <values>221</values>
+      <values>222</values>
+      <values>223</values>
+      <values>224</values>
+      <values>225</values>
+      <values>226</values>
+      <values>227</values>
+      <values>228</values>
+      <values>229</values>
+      <values>230</values>
+      <values>231</values>
+      <values>232</values>
+      <values>233</values>
+      <values>234</values>
+      <values>235</values>
+      <values>236</values>
+      <values>237</values>
+      <values>238</values>
+      <values>239</values>
+      <values>240</values>
+      <values>241</values>
+      <values>242</values>
+      <values>243</values>
+      <values>244</values>
+      <values>245</values>
+      <values>246</values>
+      <values>247</values>
+      <values>248</values>
+      <values>249</values>
+      <values>250</values>
+      <values>251</values>
+      <values>252</values>
+      <values>253</values>
+      <values>254</values>
+      <values>255</values>
+    </standaloneEnumInfos>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;1f893d0c-6a93-49ea-9d3f-78afa9ff5222&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;basic_IO_qbot_platform&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;da02e3b5-a0e2-4af1-b9d7-b65abc30bf96&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;581717c6-b9b2-49da-9849-d79699f5171e&quot;&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.016666666666666666&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;49d91be5-d240-4a3a-a923-c2e172ca4344&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.016666666666666666&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;49d91be5-d240-4a3a-a923-c2e172ca4344&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;02b84242-0d28-4edc-b0ab-1bd5e0042b3e&quot;&gt;
+            &lt;period&gt;.016666666666666666&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;3e4be0f8-a29a-488b-ac8a-b14dc8b62070&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;1&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 2&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task1&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d7aeac22-29fd-4180-a24a-56da07f11b9a&quot;&gt;
+            &lt;period&gt;.03333333333333333&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;5bb351d0-c0c6-4b5a-a461-2c5b206d2d5a&quot;&gt;
+          &lt;annotation&gt;D3&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 3&lt;/description&gt;
+          &lt;rateIdx&gt;2&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task2&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;dba9a988-a277-40e9-bd76-5210e95248c8&quot;&gt;
+            &lt;period&gt;.06666666666666667&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;eceab0fa-458b-4e5c-94ba-2b031e687198&quot;&gt;
+          &lt;annotation&gt;D4&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;3&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 4&lt;/description&gt;
+          &lt;rateIdx&gt;3&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task3&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;3e6da21b-9155-40b2-a8c5-49af214b094d&quot;&gt;
+            &lt;period&gt;.2&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;b52530f1-25c2-4a3c-ac1c-6fe7f4cbc8e0&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;dfccc76e-e401-4c0f-be3a-777c81e47837&quot;&gt;
+            &lt;period&gt;.016666666666666666&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;98faf596-7422-419f-885e-ccbf2887b321&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;22d9a7ad-1f48-482d-aad1-0d055f4444b1&quot;&gt;
+          &lt;annotation&gt;Inf&lt;/annotation&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Constant&lt;/description&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e2865950-a531-4e8d-9627-4f36d565047f&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;12c45109-3e2c-4aa1-be53-7eb51871c7ee&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;a6849cfe-924a-4e9f-a2aa-92a660b98d06&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;e186c7c0-ff14-43f4-a13d-e72d658874ca&quot;&gt;
+          &lt;annotation&gt;Inf&lt;/annotation&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;colorIndex&gt;-1&lt;/colorIndex&gt;
+          &lt;description&gt;Constant&lt;/description&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;9f147620-f9dc-4ccd-8457-2e0d374b36d5&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;a4ff8e59-cdbe-4e4f-b2f5-0f5c4e253bad&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;edd3d9b7-7206-4e50-ad49-b7816ca7a069&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4fbac258-b453-45e4-bb41-ff6027ce1055&quot;&gt;
+            &lt;period&gt;.016666666666666666&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;f9d5a7af-8e34-4613-a3d6-ae4ec857c7b9&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;2&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;293c500d-f2a0-4cfb-9824-e969ded135c2&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;1&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 2&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task1&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;f3fe68fe-994a-45c7-b3e2-67effb33fddc&quot;&gt;
+            &lt;period&gt;.03333333333333333&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;1&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task1&lt;/identifier&gt;
+        &lt;priority&gt;39&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;7f57fa1e-1b4a-4cd4-a8e2-4667f9f55436&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;3&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;d788d6c7-ebd0-4aa9-afd8-94b88f52fe90&quot;&gt;
+          &lt;annotation&gt;D3&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 3&lt;/description&gt;
+          &lt;rateIdx&gt;2&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task2&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d9009fc3-c1fb-4005-9b57-3cbbd8a9814b&quot;&gt;
+            &lt;period&gt;.06666666666666667&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;2&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task2&lt;/identifier&gt;
+        &lt;priority&gt;38&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;30dec812-e408-46f6-9cf4-e65c371e359a&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;4&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;a8bebf27-5f3a-482d-8d9c-0070597ca7d3&quot;&gt;
+          &lt;annotation&gt;D4&lt;/annotation&gt;
+          &lt;clockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;3&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 4&lt;/description&gt;
+          &lt;rateIdx&gt;3&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task3&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;35aeaeaf-e7e2-458e-9d04-fb9c88832eb6&quot;&gt;
+            &lt;period&gt;.2&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;3&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;basic_IO_qbot_platform::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task3&lt;/identifier&gt;
+        &lt;priority&gt;37&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;5ab77d59-4c8d-4019-93e4-d2889297c8e7&quot;&gt;
+        &lt;clockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;61d60bb8-d929-4282-acfa-2693bbbea35d&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task3&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;8e3a5299-51ec-41bf-8f1a-4c5921e6741a&quot;&gt;
+        &lt;clockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;590d20f7-f3fa-469e-abe9-a19ddcba1fd4&quot;&gt;
+          &lt;isInternal&gt;true&lt;/isInternal&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task1&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;dbcf199f-f619-48ba-9661-50416dc88517&quot;&gt;
+          &lt;isInternal&gt;true&lt;/isInternal&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task2&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;f5253089-aaf4-456d-a1b6-144d788b651d&quot;&gt;
+        &lt;clockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;1a304669-add0-4350-97ab-e4fa17b30312&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task2&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;6dbee900-b3fa-4838-8330-7a0fda30b96e&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task1&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;7723a55d-7897-490a-92fc-ec40fdd7aa51&quot;&gt;
+        &lt;clockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;544c2ce4-14c3-4591-b00b-f9c1444559b7&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task1&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;736df7df-86fd-4072-a5fa-9944758d762c&quot;&gt;
+          &lt;isInternal&gt;true&lt;/isInternal&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task3&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;c324ba61-7df7-40f2-a3b4-af7921c5b312&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;basic_IO_qbot_platform::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task2&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;511ebd1b-d030-4bf4-8886-71e7c46a9ae3&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskingMode&gt;ClassicMultiTasking&lt;/taskingMode&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <userSpecifiedFixedStepSize>.016666666666666666</userSpecifiedFixedStepSize>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="952bd12c-eab6-4188-9db8-87a22b5d10d3"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="bad733f8-1f60-4678-9300-14652c5c73c7"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="e1d53974-5c79-402a-b8ce-908bdbbb1c8f"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="1d65d604-24a2-4bf1-b840-c94c6463fae0">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.016666666666666666</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <isRateGrouped>true</isRateGrouped>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverMode>SOLVER_MODE_MULTITASKING</solverMode>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="a5597ad8-6239-4a29-8439-182146907ec2">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>64</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicFloat>1</prodLargestAtomicFloat>
+        <prodLargestAtomicInteger>4</prodLargestAtomicInteger>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="cbd83df4-98f8-44f8-8ccf-fbe5d2b9787f"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="80e39070-95af-4455-8ff3-7a89c680c58d"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="550b64ae-1339-453e-979f-af4761399f56"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="f326f936-4507-4c21-b8d1-e583caf37998"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="ef642677-1d8b-44f0-b35a-0a0e770dcf32"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="769ae0ca-496a-42d3-b781-d21d958856e3"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="0828b57e-3fd5-4da0-ae25-2cc3c0ba6b52">
+      <hasDisableMethod>true</hasDisableMethod>
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+      <hasUpdateMethod>true</hasUpdateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="341c8a41-5116-425a-b381-06e7747670a4">
+      <deterministicRTBs>basic_IO_qbot_platform/Downward Camera/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/Downward Camera/Rate Transition1</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/Lidar &amp; Localization/Rate Transition4</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/QArm Mini Hardware/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/RealSense Camera/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/RealSense Camera/Rate Transition1</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/RealSense Camera/Rate Transition2</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/Timing/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/Timing/Rate Transition1</deterministicRTBs>
+      <deterministicRTBs>basic_IO_qbot_platform/Timing/Rate Transition2</deterministicRTBs>
+    </periodicEventPortUnsupportedBlockInfo>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="88cf4425-9f8b-4c19-8332-9f463d3eed59">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="93946b15-e739-4cd9-9ede-3627b9293e43"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="03302726-0270-4712-b485-73e398852e81"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="d7881688-990c-4af0-a764-6f2db5cd6c3a"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="64e624e7-2ed2-46f2-8615-ffe8b1697b92"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="68ecd1c5-dc59-41b7-a31a-dc65c260e76f"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="b739ff23-56ce-41d8-a80d-e8167e049efd">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="c43c819a-fede-420e-9b12-5dc2dc44fb17">
+        <p_Name>basic_IO_qbot_platform</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="9b732c55-e506-4593-9c47-8a76fb91b965">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="a00ab5a3-6a28-4932-845e-3500c02baa13">
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="fdd28649-8d6f-4155-a63c-19ce3b8192e9"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="4b12fdf3-1c71-40a0-a58d-6a4878a60365">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="4bf3f25b-4a52-4d32-86e1-e217e6d5e326"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="83d115a0-b9cc-4055-acb0-838fc07710c4">
+        <context type="sltp.mm.core.Context" uuid="a00ab5a3-6a28-4932-845e-3500c02baa13"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="04ffee50-dc59-4988-9fd8-0eb7e0170b41">
+          <connections type="sltp.mm.core.Connection" uuid="a797a358-ff1e-4d09-b8d5-2525cdef674c">
+            <dst type="sltp.mm.core.Task" uuid="7d0c4034-e68a-4e44-b49d-0d5872df75b7"/>
+            <src type="sltp.mm.core.Task" uuid="c633133f-9052-47ba-818b-43b5cf4059d9"/>
+          </connections>
+          <connections type="sltp.mm.core.Connection" uuid="fb10924b-c7ee-4b39-9c0c-bc0c399368a6">
+            <dst type="sltp.mm.core.Task" uuid="7d0c4034-e68a-4e44-b49d-0d5872df75b7"/>
+            <src type="sltp.mm.core.Task" uuid="e79c31f2-092e-4fa9-b285-59de90eab3b3"/>
+          </connections>
+          <connections type="sltp.mm.core.Connection" uuid="0b84ef69-3034-4058-94a2-c3bb10afa6f7">
+            <dst type="sltp.mm.core.Task" uuid="d055e9a2-9b7b-4b12-8e2f-280566055335"/>
+            <src type="sltp.mm.core.Task" uuid="7d0c4034-e68a-4e44-b49d-0d5872df75b7"/>
+          </connections>
+          <connections type="sltp.mm.core.Connection" uuid="0dfb670b-3116-46f3-97d1-47d26cf14d77">
+            <dst type="sltp.mm.core.Task" uuid="d055e9a2-9b7b-4b12-8e2f-280566055335"/>
+            <src type="sltp.mm.core.Task" uuid="e79c31f2-092e-4fa9-b285-59de90eab3b3"/>
+          </connections>
+          <connections type="sltp.mm.core.Connection" uuid="2e2b2b4d-ce99-4340-85a8-aaf7c635b4eb">
+            <dst type="sltp.mm.core.Task" uuid="e79c31f2-092e-4fa9-b285-59de90eab3b3"/>
+            <src type="sltp.mm.core.Task" uuid="7d0c4034-e68a-4e44-b49d-0d5872df75b7"/>
+          </connections>
+          <tasks type="sltp.mm.core.Task" uuid="7d0c4034-e68a-4e44-b49d-0d5872df75b7">
+            <context type="sltp.mm.core.Context" uuid="a00ab5a3-6a28-4932-845e-3500c02baa13"/>
+            <explicit>false</explicit>
+            <id>1</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="a797a358-ff1e-4d09-b8d5-2525cdef674c"/>
+            <inConnections type="sltp.mm.core.Connection" uuid="fb10924b-c7ee-4b39-9c0c-bc0c399368a6"/>
+            <isTimed>true</isTimed>
+            <name>D1</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="0b84ef69-3034-4058-94a2-c3bb10afa6f7"/>
+            <outConnections type="sltp.mm.core.Connection" uuid="2e2b2b4d-ce99-4340-85a8-aaf7c635b4eb"/>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="f34d27b4-a3fc-4364-91f9-83bffbf9747d">
+              <annotation>D1</annotation>
+              <color>-12240129</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.0170</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.016666666666666666</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+          </tasks>
+          <tasks type="sltp.mm.core.Task" uuid="e79c31f2-092e-4fa9-b285-59de90eab3b3">
+            <context type="sltp.mm.core.Context" uuid="a00ab5a3-6a28-4932-845e-3500c02baa13"/>
+            <explicit>false</explicit>
+            <id>2</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="2e2b2b4d-ce99-4340-85a8-aaf7c635b4eb"/>
+            <isTimed>true</isTimed>
+            <name>D2</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="fb10924b-c7ee-4b39-9c0c-bc0c399368a6"/>
+            <outConnections type="sltp.mm.core.Connection" uuid="0dfb670b-3116-46f3-97d1-47d26cf14d77"/>
+            <priority>39</priority>
+            <rates type="sltp.mm.core.Rate" uuid="6ecf520a-4eaa-4bea-9eec-e4111211c97a">
+              <annotation>D2</annotation>
+              <color>986198527</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.0330</identifier>
+              <rateIndex>1</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.03333333333333333</period>
+              </rateSpec>
+              <sti>1</sti>
+            </rates>
+          </tasks>
+          <tasks type="sltp.mm.core.Task" uuid="d055e9a2-9b7b-4b12-8e2f-280566055335">
+            <context type="sltp.mm.core.Context" uuid="a00ab5a3-6a28-4932-845e-3500c02baa13"/>
+            <explicit>false</explicit>
+            <id>4</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="0b84ef69-3034-4058-94a2-c3bb10afa6f7"/>
+            <inConnections type="sltp.mm.core.Connection" uuid="0dfb670b-3116-46f3-97d1-47d26cf14d77"/>
+            <isTimed>true</isTimed>
+            <name>D3</name>
+            <priority>38</priority>
+            <rates type="sltp.mm.core.Rate" uuid="977f49ed-44cc-44ff-8574-e93c2bf22a9c">
+              <annotation>D3</annotation>
+              <color>234946559</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.0670</identifier>
+              <rateIndex>2</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.06666666666666667</period>
+              </rateSpec>
+              <sti>2</sti>
+            </rates>
+          </tasks>
+          <tasks type="sltp.mm.core.Task" uuid="c633133f-9052-47ba-818b-43b5cf4059d9">
+            <context type="sltp.mm.core.Context" uuid="a00ab5a3-6a28-4932-845e-3500c02baa13"/>
+            <explicit>false</explicit>
+            <id>3</id>
+            <isTimed>true</isTimed>
+            <name>D4</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="a797a358-ff1e-4d09-b8d5-2525cdef674c"/>
+            <priority>37</priority>
+            <rates type="sltp.mm.core.Rate" uuid="8f18587f-1403-4f70-b9d6-97743b0e3d9a">
+              <annotation>D4</annotation>
+              <color>234946559</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.20</identifier>
+              <rateIndex>3</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.2</period>
+              </rateSpec>
+              <sti>3</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="836d89f0-47fb-4a32-ac73-84a4ab16e685"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="3a78797f-5052-4b85-9969-bcad7bfa3eff">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="f4f4e2ea-5be1-4d53-92f6-fd8f10d85978">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="a88b1d83-1cef-4cd5-8806-54de7a878662">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="370a21d4-1768-4d53-aee5-d63efb59e50c">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="095e5d0b-6a55-4edb-8d83-8dbfff9e1422"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="79e9ada9-2c80-4f46-87ac-97fbc70453b0"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="00cf8006-347d-4fb1-a098-b0a2f8584d10"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="35eeea42-023f-4b17-907a-0c82ff85887e"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="095e5d0b-6a55-4edb-8d83-8dbfff9e1422">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="370a21d4-1768-4d53-aee5-d63efb59e50c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>basic_IO_qbot_platform::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="79e9ada9-2c80-4f46-87ac-97fbc70453b0">
+          <dataName>D2</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="370a21d4-1768-4d53-aee5-d63efb59e50c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>basic_IO_qbot_platform::defaultTimer</clockId>
+            <id>_task1</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="00cf8006-347d-4fb1-a098-b0a2f8584d10">
+          <dataName>D3</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="370a21d4-1768-4d53-aee5-d63efb59e50c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>basic_IO_qbot_platform::defaultTimer</clockId>
+            <id>_task2</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="35eeea42-023f-4b17-907a-0c82ff85887e">
+          <dataName>D4</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="370a21d4-1768-4d53-aee5-d63efb59e50c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>basic_IO_qbot_platform::defaultTimer</clockId>
+            <id>_task3</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="9c11dfbd-d844-48ea-9805-2f7f69348534"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
